@@ -185,6 +185,8 @@ const extraEffectNameMap: { [x: number]: ProduceExamEffectType } = {
   [ProduceExamEffectType.ExamLessonAddMultipleLessonBuff]: ProduceExamEffectType.ExamLessonBuff,
   [ProduceExamEffectType.ExamReviewPerSearchCount]: ProduceExamEffectType.ExamReview,
   [ProduceExamEffectType.ExamLessonBuffDependParameterBuff]: ProduceExamEffectType.ExamLessonBuff,
+  [ProduceExamEffectType.ExamLessonDependStamina]: ProduceExamEffectType.ExamLesson,
+  [ProduceExamEffectType.ExamLessonDependPlayCardCountSum]: ProduceExamEffectType.ExamLesson,
 }
 
 const extraGrowEffectNameMap: { [x: number]: ProduceExamEffectType } = {
